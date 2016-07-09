@@ -8,11 +8,13 @@ namespace COMP2007_S2016_Lab4.Controllers
 {
     public class HomeController : Controller
     {
+        // how to navigate to /Home/Index or /
         public ActionResult Index()
         {
             return View();
         }
 
+        //GET: /Home/About
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
